@@ -10,65 +10,54 @@
   <img src="https://img.shields.io/badge/License-MIT-000?style=for-the-badge" />
 </p>
 
-> ✅ Modern, minimal and production-ready starter template for React + Vite + TypeScript + TailwindCSS.
+> ✅ Modern, minimal, and production-ready starter template for React + Vite + TypeScript + TailwindCSS.
 
 ---
 
-## ⚠️ Important — About Vite Templates
+## 🚀 Create a new project using the CLI
 
-Since **Vite 5**, the CLI *no longer supports* GitHub-based templates using:
-
-```
-create-vite --template usgmathe/vite-react-ts-tailwind-minimal
-```
-
-✅ This template **still works**, but must be used via:
-
-* **GitHub Template**
-* **degit**
-* **manual clone**
-
-All instructions below are correct for Vite 5+.
-
----
-
-## 🚀 Getting Started
-
-### ✅ Option 1 — GitHub Template (recommended)
-
-Click:
-
-**Use this template → Create a new repository**
-
-Then:
+The simplest and recommended way:
 
 ```bash
-git clone https://github.com/usgmathe/vite-react-ts-tailwind-minimal.git my-app
-cd my-app
-pnpm install
-pnpm run dev
+pnpm create vrtw-usgmathe@latest my-app
 ```
+
+Also works with npm and yarn:
+
+```bash
+npm create vrtw-usgmathe@latest my-app
+yarn create vrtw-usgmathe my-app
+```
+
+This will:
+
+✅ Clone the template
+✅ Remove the original `.git`
+✅ Install dependencies (optional)
+✅ Initialize git (optional)
 
 ---
 
-### ✅ Option 2 — Using `degit` (fastest / works everywhere)
+## ✅ CLI Options
+
+You can control the setup using flags:
+
+### **Skip dependency installation**
 
 ```bash
-npx degit usgmathe/vite-react-ts-tailwind-minimal my-app
-cd my-app
-pnpm install
-pnpm run dev
+pnpm create vrtw-usgmathe@latest my-app --no-install
 ```
 
----
-
-### ✅ Option 3 — Using GitHub CLI
+### **Skip git initialization**
 
 ```bash
-gh repo create my-app --template=usgmathe/vite-react-ts-tailwind-minimal
-cd my-app
-pnpm install
-pnpm run dev
+pnpm create vrtw-usgmathe@latest my-app --no-git
+```
+
+### **Both**
+
+```bash
+pnpm create vrtw-usgmathe@latest my-app --no-install --no-git
 ```
 
 ---
@@ -77,11 +66,11 @@ pnpm run dev
 
 * ⚡ **Vite** for ultra-fast development
 * ⚛️ **React + TypeScript**
-* 🎨 **TailwindCSS** fully configured
+* 🎨 **TailwindCSS** preconfigured
 * 🧹 **Prettier + prettier-plugin-tailwindcss**
-* 🧭 **`@/*` path alias**
-* ✅ Clean and scalable structure
-* 🚀 Production-ready setup
+* 🧭 **`@/*` absolute imports**
+* ✅ Clean and scalable project structure
+* 🚀 Production-ready configuration
 
 ---
 
@@ -96,8 +85,8 @@ prettier-plugin-tailwindcss
 Ensuring:
 
 * Automatic Tailwind class sorting
-* Cleaner formatting
-* Industry-standard styling
+* Cleaner and more consistent formatting
+* Industry-standard styling rules
 
 ---
 
@@ -128,4 +117,5 @@ Licensed under the **MIT License**.
 
 Created by **Matheus Gabriel Valenga**
 📌 GitHub: [https://github.com/usgmathe](https://github.com/usgmathe)
+
 
