@@ -19,7 +19,7 @@
 Since **Vite 5**, the CLI *no longer supports* GitHub-based templates using:
 
 ```
-create-vite --template <github-username/repo>
+create-vite --template usgmathe/vite-react-ts-tailwind-minimal
 ```
 
 ✅ This template **still works**, but must be used via:
@@ -43,7 +43,7 @@ Click:
 Then:
 
 ```bash
-git clone https://github.com/<your-user>/<your-repo>.git my-app
+git clone https://github.com/usgmathe/vite-react-ts-tailwind-minimal.git my-app
 cd my-app
 pnpm install
 pnpm run dev
