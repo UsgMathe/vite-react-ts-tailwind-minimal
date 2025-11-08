@@ -109,7 +109,7 @@ pnpm run preview
 
 ## 📦 CLI Repository
 
-[https://github.com/usgmathe/create-vrtw-usgmathe?tab=readme-ov-file](https://github.com/usgmathe/create-vrtw-usgmathe?tab=readme-ov-file)
+[https://github.com/usgmathe/create-vrtw-usgmathe](https://github.com/usgmathe/create-vrtw-usgmathe)
 
 ---
 
